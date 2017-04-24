@@ -1,0 +1,8 @@
+---
+applications:
+- name: dotnet45webapp
+  memory: 2G
+  stack: windows2012R2
+  buildpack: hwc_buildpack
+  health-check-type: port
+  
